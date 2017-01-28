@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+#zdjecie{
+    height: 300px;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 35px;
+    overflow: hidden;
+    border: 4px white solid;
+}
+#zdjecie div{
+    background-image: url(../img/zdjecie.jpg);
+    height: 300px;
+    width: 300px;
+    background-position: center;
+    background-size: cover; 
+}
+#zdjecie div:hover{
+
+    transform: scale(1.35); 
+}
