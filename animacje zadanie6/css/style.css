@@ -1,0 +1,123 @@
+body{
+    margin: 0;
+    
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    background-color: deepskyblue;
+    position: relative;
+}
+.loader{
+    border: solid red 1px;
+    height: 100px;
+    width: 100px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+}
+
+.square{
+    height: 30px;
+    width: 30px;
+    background-color: #fff;
+    position: absolute;
+}
+
+.square:first-child{
+    top: 0;
+    left: 0;
+    animation: load-one;
+    
+}
+
+.square:last-child{
+    bottom: 0;
+    right: 0;
+}
+
+@keyframes load-one{
+    0%{
+        top: 0;
+        left: 0;
+        height: 30px;
+        width: 30px;
+        transform: rotate(0deg);
+    }
+    25%{
+        top: 70px;
+        left: 0;
+        height: 15px;
+        width: 15px;
+        transform: rotate(45deg);
+    }
+    50%{
+        top: 70px;
+        left: 70px;
+        height: 30px;
+        width: 30px;
+        transform: rotate(90deg);
+        
+    }
+    75%{
+        top: 0px;
+        left: 70px;
+        height: 15px;
+        width: 15px;
+        transform: rotate(135deg);
+    }
+    100%{
+        top: 0px;
+        left: 0px;
+        height: 30px;
+        width: 30px;
+        transform: rotate(180deg);
+    }
+}
+/*
+
+body{
+    margin: 0;
+    background-color: lightblue;
+}
+#container{
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+    position: relative;
+}
+.box{
+    height: 10%;
+    width: 10%;
+    border: 1px solid red;
+    background-color: white;
+}
+
+#jeden {
+    animation-name: kwadrat;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    position: absolute;
+}
+
+@keyframes kwadrat {
+    0%,100%{
+        left:0;
+        top: 0;
+    }
+    25{
+        left: 0;
+        bottom: 0;
+    }
+    50{
+        right: 0;
+        bottom: 0;
+    }
+    75%{
+        right: 0;
+        top:0;
+    }
+    
+}*/
