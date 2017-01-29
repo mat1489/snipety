@@ -1,0 +1,18 @@
+*{
+    box-sizing: border-box;
+    text-align: center;
+}
+
+body{
+    margin: 0;
+    overflow: hidden;
+}
+
+h1{
+    font-size: 3em;
+}
+
+.container{
+    width: 100%;
+/*    niedokonczone*/
+}

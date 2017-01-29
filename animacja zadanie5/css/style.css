@@ -12,7 +12,7 @@
 }
 .top-curtain {
     animation-name: gora;
-    animation-duration: 2s;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
 }
 
@@ -38,7 +38,7 @@
 
 .bottom-curtain {
     animation-name: dol;
-    animation-duration: 2s;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
 }
 
