@@ -1,0 +1,34 @@
+
+.top curtain {
+    animation-name: gora;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+
+@keyframes gora {
+    0% {
+        background-color: yellow;
+        height: 0;
+    }
+    100% {
+        background-color: beige;
+        height: 50%;
+    }
+}
+
+.bottom curtain {
+    animation-name: dol;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+
+@keyframes dol {
+    0% {
+        background-color: yellow;
+        height: 0;
+    }
+    100% {
+        background-color: violet;
+        height: 50%;
+    }
+}
