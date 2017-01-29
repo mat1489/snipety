@@ -1,0 +1,70 @@
+/*
+.box {
+    margin: 0;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+
+  
+    display: inline-block;
+    
+}
+
+.box-front{
+    background-color: yellow;
+    position: relative;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    top: 0;
+}
+
+.box-back{
+    background-color: green;
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: 0;
+    overflow: hidden;
+}
+
+.box:hover{
+    transform: rotateX(180)
+}
+
+
+*/
+
+.box{
+    height: 300px;
+    width: 300px;
+    position: relative;
+    display: inline-block;
+    margin: 20px;
+}
+
+.box-in{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    transition: all 0.5s;
+}
+
+.box-front{
+    background-color: orange;
+    z-index: 1;
+    backface-visibility: hidden;
+}
+
+.box-back{
+    background-color: blue;
+    transform: rotateY(180deg);
+}
+
+.box:hover .box-front{
+    transform: rotateY(180deg);
+}
+
+.box:hover .box-back{
+    transform: rotateY(0deg);
+}

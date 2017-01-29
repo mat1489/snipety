@@ -1,0 +1,69 @@
+img {
+    height: 300px;
+    margin-bottom: 300px;
+    transition: all 0.5s;
+    transform-origin: 100%, 40%;
+    margin-top: 50px;
+}
+
+.rotate img{
+    transform: rotate(20deg);
+}
+
+.translate img{
+    transform: translate(200px, 100px);
+}
+
+.scale img:hover{
+    transform: scale(1.2);
+      
+}
+/*
+.animation img {
+    animation-name: resize;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes resize {
+    0%, 100% {
+        height: 300px;
+    }
+    50% {
+        height: 50px;
+    }
+}*/
+#cointener{
+    height: 100%;
+}
+/*animacja kolko w kwadrat poczatek*/
+.animation2 #kwadrat{
+    animation-name: kwadratwkolko;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    margin-bottom: 50px;
+}
+
+@keyframes kwadratwkolko {
+    0%, 100% {
+        height: 150px;
+        width: 150px;
+        background-color: fuchsia;
+    }
+    50% {
+        height: 300px;
+        width: 300px;
+        border-radius: 50%;
+        background-color: lightblue;
+    }
+/*animacja kolko w kwadrat koniec*/
+    
+    
+/*animacja zadanie drugie poczatek*/
+    #zadanie2 div{
+        height: 150px;
+        width: 150px;
+        background-image: 
+    }  
+    
+/*animacja zadanie drugie koniec*/
